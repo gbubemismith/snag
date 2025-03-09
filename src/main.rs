@@ -9,5 +9,4 @@ fn main() {
         eprintln!("Error: {}", err);
         process::exit(1);
     }
-    println!("Cli arguments {:#?}", args);
 }
